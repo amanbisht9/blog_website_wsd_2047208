@@ -72,15 +72,5 @@ ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
-.learnmorepage{
-	background-image: url("learn_more_pic.jpg");
-	height: 100vh;
-	background-position: center;
-	background-size:cover;		
-}
 
-#LM_logo {
-  margin-left: 90px;
-  margin-right: 200px;
-}
 
