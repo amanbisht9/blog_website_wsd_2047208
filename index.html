@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>BLOG-DOO</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css"> 
+
+<script lang="javascript" type="text/javascript">
+    function displayContactList(){
+        var base = document.getElementById("myContactDetails");
+        var contactList = document.getElementsByTagName("ContactList");
+        var personInfo = document.getElementsByTagName("PersonInfo")[0];
+        var Name = document.getElementsByTagName("Name")[0].firstChild.data;
+        var PhoneNo = document.getElementsByTagName("PhoneNo")[0].firstChild.data;
+        var Email = document.getElementsByTagName("Email")[0].firstChild.data;
+        alert("Contact List: \n\n"+"Name: "+Name+"\n"+"Email: "+Email+"\n"+"PhoneNo: "+PhoneNo); 
+
+    }
+</script>
+
+</head>
+
+<body>
+
+<header>
+<div class="main">
+
+<div class="logo">
+<img src="logo.png" alt="LOGO">
+</div>
+
+<div>
+<ul>
+<li><a href="#" >Home</a></li>
+<li><a href="#" >About</a></li>
+<li><a href="javascript:displayContactList()" >Contact</a></li>
+<li><a href="SignUp.html" >SignUp</a></li>
+<li><a href="#" >SignIn</a></li>
+</ul>
+</div>
+
+<div class="title">
+<h1>BLOG-DOO</h1>
+</div>
+
+<div class="button">
+<a href="learn_more_page.html" class="btn">LEARN MORE</a>
+</div>
+
+</div>
+</header>
+
+<xml id="myContactDetails" style="display: none;">
+    <ContactList>
+        <PersonInfo>
+            <Name>Aman Bisht</Name>
+            <PhoneNo>9076879477</PhoneNo>
+            <Email>amanbisht9@gmail.com</Email>
+        </PersonInfo>
+    </ContactList>
+    
+</xml>
+
+</body>
+</html>
